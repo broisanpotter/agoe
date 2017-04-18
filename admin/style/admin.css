@@ -1,0 +1,363 @@
+body{
+	background-color: #eee;
+	font-family: Ubuntu;
+}
+
+
+/*Style liste form Bootstrap*/
+
+.list-group-item {
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 3px 0px #cfcfcf;
+}
+
+
+/*Style Title*/
+
+.page-header {
+    border-bottom: 1px solid #000;
+}
+
+
+/*Oeuvre liste*/
+
+.color_header {
+  background-color: white;
+  box-shadow: 2px 2px 3px 0px #cfcfcf;
+  padding:5px;
+}
+
+.color_toogle {
+    background-color: #B3ECFF;
+}
+
+.thumbnail {
+    padding: 0px;
+    padding-top: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 0px #cfcfcf;
+    cursor: pointer;
+}
+
+.col-md-4 {
+    width: 32%;
+}
+
+.title_exposition {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+#error_succes {
+    height: 51.6px;
+    margin-top: 15px;
+}
+
+
+/*Liste oeuvre fixed*/
+
+.oeuvre_fixed {
+    position: fixed;
+    left: 0px;
+    top: 165px;
+}
+
+.oeuvre_fixed li {
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px 0px #cfcfcf;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+
+/*Button shadow*/
+
+.btn_shadow {
+    box-shadow: 2px 2px 3px 0px #cfcfcf;
+    height: 51.6px;
+    margin-top: 15px;
+}
+
+
+/*MAP*/
+
+.fixed_map {
+  z-index: 10;
+  float: left;
+  background-color: white;
+  border-radius: 15px;
+  float: left;
+  background-color: white; 
+  border-radius: 15px;
+}
+
+.ui-widget-header {
+  background-color: white;
+  border: 2px solid black;
+}
+
+.map {
+  background-image: url('../plan-projet.png');
+  background-size: contain;
+  width: 1170px;
+  height: 768px;
+  background-repeat: no-repeat;  
+  position: relative;
+  box-shadow: 2px 2px 3px 0px #cfcfcf;
+}
+
+.draggable {
+  z-index: 10;
+}
+
+.droppable {
+  z-index: 9;
+}
+
+.map1 {
+  position: absolute;
+  top: 173px;
+}
+
+.map2 {
+  position: absolute;
+  top: 173px;
+  left: 110px;
+}
+
+.map3 {
+  position: absolute;
+  top: 173px;
+  left: 220px;
+}
+
+.map4{
+  position: absolute;
+  top: 242px;
+  left: 690px;
+}
+
+.map5 {
+  position: absolute;
+  top: 242px;
+  left: 580px;
+}
+
+.map6 {
+  position: absolute;
+  top: 105px;
+  right: 331px;
+}
+
+.map7{
+    position: absolute;
+    top: 25px;
+    right: 718px;
+}
+
+.map8 {
+  position: absolute;
+  top: 242px;
+  right: 208px;
+}
+
+.map9 {
+  position: absolute;
+  top: 386px;
+  right: 208px;
+}
+
+.map10{
+  position: absolute;
+  top: 105px;
+  right: 208px;
+}
+
+.map11 {
+    position: absolute;
+    bottom: 254px;
+    right: 586px;
+}
+
+.map12 {
+  position: absolute;
+  bottom: 99px;
+  left: 341px;
+}
+
+.map13 {
+  position: absolute;
+  bottom: 99px;
+  right: 848px;
+}
+
+.map14 {
+  position: absolute;
+  bottom: 99px;
+  left: 53px;
+}
+
+.map15 {
+  position: absolute;
+  bottom: 254px;
+  left: -10px;
+}
+
+
+/*Fleche fixed pour remonter en haut du site*/
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+
+.fixed span {
+	border: 1px solid #28a4c9;
+	background-color: #28a4c9;
+	color: white;
+	border-radius: 10px;
+	opacity: 0.8;
+  box-shadow: 2px 2px 3px 0px #cfcfcf;
+}
+
+
+/*Modification de la liste des oeuvres des expo*/
+
+.list_padding {
+    padding: 0px;
+}
+
+
+/*Modification de la nav bar principale*/
+
+.nav > li {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navbar-theme {
+  font-size: 18px;
+  color: black;
+}
+
+
+/*Modification de la liste des artistes*/
+
+.list-group {line-height:30px}
+
+.del_glyph {
+    float: right;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+
+/*Modification de la barre de connexion*/
+
+.form-signin {
+	max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.push-top-login {
+	margin-top: 100px;
+}
+
+
+/*Toogle Switch*/
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+/*Apercu expo*/
+
+.apercu_expo {
+   padding-left: 15px;
+}
+
+/*Form-background*/
+
+.form-background {
+  -moz-box-shadow: -5px -5px 5px 0px #cdffff;
+  -moz-box-shadow: -5px -5px 5px 0px #c0c0c0;
+  -webkit-box-shadow: -5px -5px 5px 0px #c0c0c0;
+  -o-box-shadow: -5px -5px 5px 0px #c0c0c0;
+  box-shadow: -5px -5px 5px 0px #c0c0c0;
+  filter:progid:DXImageTransform.Microsoft.Shadow(color=#c0c0c0, Direction=315, Strength=5);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.alert_css {
+    position: absolute;
+    top: 40px;
+    right: 1px;
+    border-radius: 5px;
+}

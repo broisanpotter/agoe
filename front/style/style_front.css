@@ -1,0 +1,61 @@
+body {
+    font-family: Ubuntu;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+
+.glyphicon-front {
+	color: black;
+}
+
+.carousel-control {
+	left: 120px;
+}
+
+.carousel-control.right {
+	right:120px;
+}
+
+.color_header {
+    background-color: white;
+    box-shadow: 2px 2px 3px 0px #cfcfcf;
+    width: 60%;
+    padding:5px;
+}
+
+.nav_bar_front {
+	background-color: black;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.artiste_front {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 80px;
+}
+
+.artiste_front h4 {
+    padding-bottom: 10px;
+}
+
+.artiste_title_front {
+    margin-bottom: 40px;
+}
+
+.artiste_front_right {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.back_front {
+    font-size: 29px;
+    color: black;
+    padding-top: 23px;
+}       
